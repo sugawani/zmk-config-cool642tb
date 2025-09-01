@@ -78,7 +78,7 @@
         default_layer {
             bindings = <
 &kp Q       &kp W    &kp E      &kp R         &kp T                                           &kp Y          &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S    &kp D      &kp F         &kp G      &bt BT_NXT     &kp LCTRL             &kp H          &kp J  &kp K      &kp L       &lt 4 SEMICOLON
+&kp A       &kp S    &kp D      &kp F         &kp G      &bt BT_NXT     &kp LCTRL             &kp H          &kp J  &kp K      &kp L       &lt 4 MINUS
 &kp Z       &kp X    &kp C      &kp V         &kp B      &mt LCTRL TAB  &kp LEFT_SHIFT        &kp N          &kp M  &kp COMMA  &kp PERIOD  &lt 3 SLASH
 &kp ESCAPE  &kp TAB  &kp LCTRL  &mt LALT F15  &lt 1 ESC  &lt 2 SPACE    &mt LEFT_SHIFT ENTER  &kp BACKSPACE                                &mt LEFT_SHIFT F14
             >;
@@ -90,10 +90,10 @@
 
         number_layer {
             bindings = <
-&kp NUMBER_1  &kp N2     &kp N3     &kp N4     &kp N5                  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0
-&kp GRAVE     &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 3   &trans  &trans  &trans  &kp LBKT  &kp RBKT  &kp APOS  &kp EQUAL
-&trans        &trans     &mkp MB4   &mkp MB5   &trans  &trans  &trans  &trans  &kp BSLH  &trans    &trans    &trans
-&trans        &trans     &trans     &trans     &trans  &trans  &trans  &trans                                &trans
+&kp NUMBER_1  &kp N2     &kp N3     &kp N4     &kp N5                  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0
+&kp GRAVE     &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 3   &trans  &trans  &trans  &kp LBKT   &kp RBKT  &kp APOS  &kp SEMICOLON
+&trans        &trans     &mkp MB4   &mkp MB5   &trans  &trans  &trans  &trans  &kp EQUAL  &kp BSLH  &trans    &trans
+&trans        &trans     &trans     &trans     &trans  &trans  &trans  &trans                                 &trans
             >;
         };
 
