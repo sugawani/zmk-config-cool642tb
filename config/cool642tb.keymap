@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W    &kp E      &kp R         &kp T                                           &kp Y          &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S    &kp D      &kp F         &kp G      &bt BT_NXT     &kp LCTRL             &kp H          &kp J  &kp K      &kp L       &lt 4 MINUS
-&kp Z       &kp X    &kp C      &kp V         &kp B      &mt LCTRL TAB  &kp LEFT_SHIFT        &kp N          &kp M  &kp COMMA  &kp PERIOD  &lt 3 SLASH
-&kp ESCAPE  &kp TAB  &kp LCTRL  &mt LALT F13  &lt 1 ESC  &lt 2 SPACE    &mt LEFT_SHIFT ENTER  &kp BACKSPACE                                &mt LEFT_SHIFT F14
+&kp Q             &kp W    &kp E      &kp R         &kp T                                           &kp Y          &kp U  &kp I      &kp O       &kp P
+&mt LCTRL A       &kp S    &kp D      &kp F         &kp G      &bt BT_NXT     &kp LCTRL             &kp H          &kp J  &kp K      &kp L       &lt 4 MINUS
+&mt LEFT_SHIFT Z  &kp X    &kp C      &kp V         &kp B      &mt LCTRL TAB  &kp LEFT_SHIFT        &kp N          &kp M  &kp COMMA  &kp PERIOD  &lt 3 SLASH
+&kp ESCAPE        &kp TAB  &kp LCTRL  &mt LALT F13  &lt 1 ESC  &lt 2 SPACE    &mt LEFT_SHIFT ENTER  &kp BACKSPACE                                &mt LEFT_SHIFT F14
             >;
 
             sensor-bindings =
