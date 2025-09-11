@@ -48,7 +48,7 @@
         default_layer {
             bindings = <
 &kp Q                &kp W   &kp E      &kp R          &kp T                                               &kp Y          &kp U  &kp I                   &kp O                &kp P
-&mt F24 A            &kp S   &kp D      &kp F          &kp G      &bt BT_NXT         &trans                &kp H          &kp J  &kp K                   &kp L                &lt 4 MINUS
+&kp A                &kp S   &kp D      &kp F          &kp G      &bt BT_NXT         &trans                &kp H          &kp J  &kp K                   &kp L                &lt 4 MINUS
 &mt LEFT_SHIFT Z     &kp X   &kp C      &kp V          &kp B      &kp LS(LC(SPACE))  &trans                &kp N          &kp M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &lt 3 SLASH
 &mt LEFT_ALT ESCAPE  &trans  &kp LCTRL  &mt LCTRL F13  &lt 1 TAB  &lt 2 SPACE        &mt LEFT_SHIFT ENTER  &kp BACKSPACE                                                      &mt RCTRL F14
             >;
@@ -69,7 +69,7 @@
             bindings = <
 &trans     &trans     &kp UP_ARROW  &kp LC(LS(S))  &kp RC(UP_ARROW)                    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
 &kp LC(A)  &kp LEFT   &kp DOWN      &kp RIGHT      &kp RC(RIGHT)       &trans  &trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F12
-&kp LC(Z)  &kp LC(X)  &kp LC(C)     &kp LC(V)      &kp RC(LEFT_ARROW)  &trans  &trans  &kp F10  &kp F11  &trans  &trans  &kp F12
+&trans     &kp LC(X)  &kp LC(C)     &kp LC(V)      &kp RC(LEFT_ARROW)  &trans  &trans  &kp F10  &kp F11  &trans  &trans  &kp F12
 &trans     &trans     &trans        &trans         &trans              &trans  &trans  &trans                            &trans
             >;
         };
