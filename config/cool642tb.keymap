@@ -53,15 +53,15 @@
 &mt LEFT_ALT ESCAPE  &trans  &kp LCTRL  &mt LCTRL F13  &lt 1 TAB  &lt 2 SPACE        &mt LEFT_SHIFT ENTER  &kp BACKSPACE                                                      &mt RCTRL F14
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp A B>, <&scroll_up_down>;
         };
 
         number_layer {
             bindings = <
-&kp NUMBER_1  &kp N2     &kp N3     &kp N4     &kp N5                             &kp N6         &kp N7                &kp N8                 &kp N9            &kp N0
-&trans        &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 3              &trans  &trans  &kp GRAVE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL         &kp SEMICOLON
-&trans        &trans     &mkp MB4   &mkp MB5   &kp LS(LC(SPACE))  &trans  &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
-&trans        &trans     &trans     &trans     &trans             &trans  &trans  &trans                                                                        &trans
+&kp NUMBER_1  &kp N2     &kp N3     &kp N4     &kp N5                         &kp N6         &kp N7                &kp N8                 &kp N9            &kp N0
+&trans        &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 3          &trans  &trans  &kp GRAVE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL         &kp SEMICOLON
+&trans        &trans     &mkp MB4   &mkp MB5   &kp LC(SPACE)  &trans  &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&trans        &trans     &trans     &trans     &trans         &trans  &trans  &trans                                                                        &trans
             >;
         };
 
