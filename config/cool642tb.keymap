@@ -53,7 +53,7 @@
 &mt LEFT_ALT ESCAPE  &trans  &kp LCTRL  &mt LCTRL F13  &lt 1 TAB  &lt 2 SPACE        &mt LEFT_SHIFT ENTER  &kp BACKSPACE                                                      &mt RCTRL F14
             >;
 
-            sensor-bindings = <&inc_dec_kp A B>, <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&scroll_up_down>;
         };
 
         number_layer {
