@@ -9,9 +9,8 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
-      import: app/west.yml
       revision: v0.3-branch
+      import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: telzo2000
       revision: main
