@@ -1,0 +1,8 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+description: Battery SoC monitoring using voltage divider (NiMH 2S curve)
+
+compatible: "cool642tb,battery-nimh-divider"
+
+include: voltage-divider.yaml

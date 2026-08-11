@@ -1,0 +1,10 @@
+DT_COMPAT_COOL642TB_BATTERY_NIMH_DIVIDER := cool642tb,battery-nimh-divider
+
+config COOL642TB_BATTERY_NIMH_DIVIDER
+    bool
+    default $(dt_compat_enabled,$(DT_COMPAT_COOL642TB_BATTERY_NIMH_DIVIDER))
+    select ADC
+    select ZMK_BATTERY
+    depends on SENSOR
+    help
+        Battery voltage divider driver with NiMH 2S discharge curve.

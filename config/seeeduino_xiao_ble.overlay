@@ -1,0 +1,11 @@
+/*
+ * ボード定義 (zmk/app/boards/seeeduino_xiao_ble.overlay) の vbatt は
+ * zmk,battery-voltage-divider を使うが、その%変換はリチウム電池カーブ
+ * (3.45V以下=0%) のため、NiMH 2セル直列 (2.0〜2.8V) では常に 0% になる。
+ * ノードはそのまま流用し、ドライバだけ NiMH 用に差し替える。
+ * このファイルはボード定義より後・keymapより前に適用される。
+ */
+
+&vbatt {
+    compatible = "cool642tb,battery-nimh-divider";
+};
